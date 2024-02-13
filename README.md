@@ -1,4 +1,4 @@
-These are the most current gpx and route guide files for the baja divide (as of fall 2023). 
+These are the most current gpx and route guide files for the Baja Divide (created Fall 2023). 
 
 <a href="Baja Divide Resupply Guide - Google Sheets.pdf" download>Baja Divide Resupply Guide - Google Sheets.pdf</a>
 
