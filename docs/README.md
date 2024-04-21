@@ -1,6 +1,9 @@
+## Important files for the Baja Divide bikepacking route 
+
 These are the most current gpx and route guide files for the Baja Divide (created Fall 2023). 
 
-<a href="Baja Divide Resupply Guide - Google Sheets.pdf" download>Baja Divide Resupply Guide - Google Sheets.pdf</a>
+
+[Baja Divide Resupply Guide - Google Sheets.pdf](https://"Baja_Divide_Resupply Guide - Google Sheets.pdf")
 
 <a href="Baja_Divide_updated_waypoints_Nov_2023.gpx" download>Baja_Divide_updated_waypoints_Nov_2023.gpx</a>
 
