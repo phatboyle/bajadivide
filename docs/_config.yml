@@ -1,7 +1,7 @@
 title: Baja Divide
 author:
   name: Pat Boyle
-  email: patboyle@gmail.com
+  #email: patboyle@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
