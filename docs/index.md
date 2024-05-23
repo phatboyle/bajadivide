@@ -7,7 +7,6 @@
 #
 layout: home
 ---
-## Important files for the Baja Divide bikepacking route 
 
 These are the most current gpx and route guide files for the Baja Divide (created Fall 2023). 
 
