@@ -8,7 +8,8 @@
 layout: home
 ---
 
-These are the most current gpx and route guide files for the Baja Divide (created Fall 2023). 
+These are the most current gpx and route guide files for the Baja Divide.
+
 2024 Files
 - [Baja_Divide_Resupply_Guide.pdf](Baja_Divide_Resupply_Guide.pdf)
 - [Baja_Divide_2024_waypoints.gpx](Baja_Divide_2024_waypoints.gpx)
