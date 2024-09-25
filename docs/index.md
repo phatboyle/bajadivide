@@ -11,7 +11,7 @@ layout: home
 These are the most current gpx and route guide files for the Baja Divide.
 
 2024 Files
-- [Baja_Divide_Resupply_Guide.pdf](Baja_Divide_Resupply_Guide.pdf)
+- [Baja_Divide_Resupply_Guide(2023version).pdf](Baja_Divide_Resupply_Guide.pdf)
 - [Baja_Divide_2024_waypoints.gpx](Baja_Divide_2024_waypoints.gpx)
 - [baja_divide_v2024revb.gpx](baja_divide_v2024revb.gpx)
 - [Baja_Divide_Route_Guide_v2024revb.pdf](Baja_Divide_Route_Guide_v2024revb.pdf)
