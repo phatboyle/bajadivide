@@ -10,19 +10,17 @@ layout: home
 
 These are the most current gpx and route guide files for the Baja Divide (created Fall 2023). 
 2024 Files
-- [Baja Divide Resupply Guide - Google Sheets.pdf](Baja%20Divide%20Resupply%20Guide%20-%20Google%20Sheets.pdf)
-- [Baja_Divide_updated_waypoints_Nov_2023.gpx](Baja_Divide_updated_waypoints_Nov_2023.gpx)
-- [Complete Baja Divide v20221203 (1).gpx](Complete%20Baja%20Divide%20v20221203%20(1).gpx)
-- [Baja Divide Route Guide update Nov 17 2023 - Google Docs (1).pdf](Baja%20Divide%20Route%20Guide%20update%20Nov%2017%202023%20-%20Google%20Docs%20(1).pdf)
+- [Baja_Divide_Resupply_Guide.pdf](Baja_Divide_Resupply_Guide.pdf)
+- [Baja_Divide_2024_waypoints.gpx](Baja_Divide_2024_waypoints.gpx)
+- [baja_divide_v2024revb.gpx](baja_divide_v2024revb.gpx)
+- [Baja_Divide_Route_Guide_v2024revb.pdf](Baja_Divide_Route_Guide_v2024revb.pdf)
 
-
-
+Also - here is Caltopo map where you can view the current gpx and waypoints, and download them [Caltopo link to GPX files for the route and waypoints](https://caltopo.com/m/DS5UK)
 
 2023 Files
-
-- [Baja Divide Resupply Guide - Google Sheets.pdf](Baja%20Divide%20Resupply%20Guide%20-%20Google%20Sheets.pdf)
+- [Baja_Divide_Resupply_Guide.pdf](Baja_Divide_Resupply_Guide.pdf)
 - [Baja_Divide_updated_waypoints_Nov_2023.gpx](Baja_Divide_updated_waypoints_Nov_2023.gpx)
-- [Complete Baja Divide v20221203 (1).gpx](Complete%20Baja%20Divide%20v20221203%20(1).gpx)
-- [Baja Divide Route Guide update Nov 17 2023 - Google Docs (1).pdf](Baja%20Divide%20Route%20Guide%20update%20Nov%2017%202023%20-%20Google%20Docs%20(1).pdf)
+- [Complete_Baja_Divide_v20221203.gpx](Complete_Baja_Divide_v20221203.gpx)
+- [Baja_Divide_Route_Guide_update_Nov_17_2023.pdf](Baja_Divide_Route_Guide_update_Nov_17_2023.pdf)
 
-Also - here is map and [Caltopo link to GPX files for the route and waypoints](https://caltopo.com/m/DS5UK)
+
