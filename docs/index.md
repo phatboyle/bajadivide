@@ -7,6 +7,7 @@
 #
 layout: home
 ---
+### Baja Divide important files
 
 These are the most current gpx and route guide files for the Baja Divide.
 
