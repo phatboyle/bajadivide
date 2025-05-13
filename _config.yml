@@ -4,7 +4,7 @@ author:
 description: >
   Baja Divide important downloads
 
-theme: jekyll-theme-mimima
+theme: mimima
 
 plugins:
   - jekyll-feed
