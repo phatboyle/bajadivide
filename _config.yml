@@ -1,29 +1,15 @@
-title: "Baja Divide"
-description: "A blog for route info and updates"
-url: "https://phatboyle.github.io"
-baseurl: "/bajadivide"
+title: Baja Divide
+author:
+  name: Pat Boyle
+description: >
+  Baja Divide important downloads
 
-remote_theme: "jekyll-theme-minimal"
+theme: jekyll-theme-mimima
 
 plugins:
-  - jekyll-include-cache
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
-markdown: kramdown
-highlighter: rouge
+header_pages:
+  - about.md
 
-include:
-  - _pages
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
-theme: null
