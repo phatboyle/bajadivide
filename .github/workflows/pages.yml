@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages with Minimal Mistakes
+name: Build and Deploy Jekyll with Minimal Mistakes
 
 on:
   push:
@@ -9,17 +9,36 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v4
-      - uses: actions/jekyll-build-pages@v1
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
-      - uses: actions/upload-pages-artifact@v2
+          ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle init
+          echo 'gem "jekyll", "~> 4.3.2"' >> Gemfile
+          echo 'gem "minimal-mistakes-jekyll"' >> Gemfile
+          bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: _site
 
   deploy:
     needs: build
