@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll with Minimal Mistakes
+name: Build and Deploy Jekyll (Minimal Mistakes Manual)
 
 on:
   push:
@@ -17,25 +17,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-
-      - name: Install dependencies
+      - name: Install Jekyll manually
         run: |
-          gem install bundler
+          sudo gem install bundler jekyll
+          jekyll new mysite --force --skip-bundle
+          rm -rf mysite
           bundle init
           echo 'gem "jekyll", "~> 4.3.2"' >> Gemfile
           echo 'gem "minimal-mistakes-jekyll"' >> Gemfile
           bundle install
+          bundle exec jekyll build
 
-      - name: Build site
-        run: bundle exec jekyll build
-
-      - name: Upload site artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
@@ -47,5 +43,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v2
+      - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v2
