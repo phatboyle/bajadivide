@@ -3,7 +3,7 @@ description: "A blog for route info and updates"
 url: "https://phatboyle.github.io"
 baseurl: "/bajadivide"
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "jekyll-theme-minimal"
 
 plugins:
   - jekyll-include-cache
