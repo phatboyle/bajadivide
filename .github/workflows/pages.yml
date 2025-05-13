@@ -1,8 +1,8 @@
-name: Build and Deploy Jekyll (Minimal Mistakes Manual)
+name: GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -14,35 +14,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install Jekyll manually
-        run: |
-          sudo gem install bundler jekyll
-          jekyll new mysite --force --skip-bundle
-          rm -rf mysite
-          bundle init
-          echo 'gem "jekyll", "~> 4.3.2"' >> Gemfile
-          echo 'gem "minimal-mistakes-jekyll"' >> Gemfile
-          bundle install
-          bundle exec jekyll build
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
-        with:
-          path: _site
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
+        id: deployment
