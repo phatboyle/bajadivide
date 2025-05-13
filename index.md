@@ -1,7 +1,5 @@
 ---
-layout: home
-author_profile: true
-title: "Welcome to Baja Divide"
+layout: default
+title: Home
 ---
-
-Check out the latest blog posts below.
+Welcome to my Baja Divide downloads site. 
