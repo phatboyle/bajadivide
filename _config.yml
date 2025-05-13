@@ -1,15 +1,20 @@
 title: Baja Divide
-author:
-  name: Pat Boyle
-description: >
-  Baja Divide important downloads
+description: A blog for route info and updates
 
-theme: mimima
+theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+url: "https://phatboyle.github.io"
+baseurl: "/bajadivide"
+
+# Optional minima settings
+minima:
+  skin: auto
+  date_format: "%b %d, %Y"
+
+# Show specific pages in header nav
 header_pages:
   - about.md
-
