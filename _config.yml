@@ -1,0 +1,29 @@
+title: "Baja Divide"
+description: "A blog for route info and updates"
+url: "https://phatboyle.github.io"
+baseurl: "/bajadivide"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+markdown: kramdown
+highlighter: rouge
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+theme: null
